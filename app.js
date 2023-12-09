@@ -14,10 +14,5 @@ const container = React.createElement("div",{
 },["This is Div",heading])
 
 
-
-
-
-
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(container);
