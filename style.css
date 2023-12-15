@@ -1,0 +1,33 @@
+/* styles.css */
+/* Assignment 3 creating a Navbar */
+#header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+  }
+  
+  #logo img {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+  }
+
+  #search{
+    width: 200px;
+    height: 30px;
+    margin: 22px auto;
+  }
+  
+  ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin-left: 50px;
+    display: flex;
+    
+  }
+  
+  li {
+    
+    margin-right: 10px;
+  }
+  
