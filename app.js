@@ -13,6 +13,16 @@ const container = React.createElement("div",{
     className : "class-container"
 },["This is Div",heading])
 
+const name = <h1>This is a heading</h1>;
+
+const Container2 = () => (
+    <div className = "Title">
+        {name}
+        <h2>Hello Shubham</h2>
+        <h3>pre-final Year student from CSIT</h3>
+        <p>Software Engineer</p>
+    </div>)
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(container);
